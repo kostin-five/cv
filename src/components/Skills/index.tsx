@@ -1,5 +1,4 @@
 import Styles from "./Skills.module.css";
-import { skills } from "../../data";
 
 interface ISkills {
   title: string;
