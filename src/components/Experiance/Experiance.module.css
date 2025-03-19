@@ -1,0 +1,17 @@
+.Experiance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 32px;
+  color: #bbbbbb;
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: 1px;
+}
