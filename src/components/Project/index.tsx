@@ -19,7 +19,7 @@ export default function Project({
       <p className={Styles.Text}>{description}</p>
       <p>
         <a className={Styles.Link} href={link} target={"_blank"}>
-          {"Githab"}
+          {"Github"}
         </a>{" "}
         |{" "}
         <a className={Styles.Link} href={website} target={"_blank"}>
