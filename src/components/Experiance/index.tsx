@@ -13,6 +13,8 @@ export default function Experiance() {
             flexDirection: "column",
             height: "100%",
             justifyContent: "space-evenly",
+            paddingLeft: "10rem",
+            gap: "1em",
           }}
         >
           {experiances.map((experiance, index) => (
