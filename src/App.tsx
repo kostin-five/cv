@@ -17,16 +17,19 @@ export default function App() {
           display: "flex",
           flexDirection: "column",
           height: "100%",
-          justifyContent: "space-evenly",
+          justifyContent: "space-around",
+          paddingTop: 15,
         }}
       >
         <Header />
         <About {...about} />
         <Education {...education} />
         <Skills {...skills} />
-        <Contacts />
       </div>
-      <Experience />
+      <div>
+        <Experience />
+      </div>
+      <Contacts />
     </>
   );
 }

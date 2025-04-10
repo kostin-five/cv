@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  grid-column: span 2;
+  padding-bottom: 15px;
 }
 
 .title {

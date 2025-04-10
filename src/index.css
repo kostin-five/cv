@@ -41,9 +41,10 @@ body {
 
   @media (max-width: 768px) {
     background: linear-gradient(
-      /* 90deg, */ rgb(0, 0, 0),
-      #8b00ff 100%,
-      rgb(0, 0, 0) 100%
+      225deg,
+      rgb(139, 0, 255),
+      rgb(0, 0, 0) 49%,
+      rgb(139, 0, 255) 100%
     );
   }
 }

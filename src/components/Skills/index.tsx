@@ -9,7 +9,14 @@ export default function Skills({ title, skills }: ISkills) {
   return (
     <div className={Styles.Skills}>
       <h2 className={Styles.title}>{title}</h2>
-      <div style={{ display: "flex", paddingTop: "10px" }}>
+      <div
+        style={{
+          display: "flex",
+          paddingTop: "10px",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
         <p className={Styles.skill}>{skills[0]}</p>
         <p className={Styles.skill}>{skills[1]}</p>
         <p className={Styles.skill}>{skills[2]}</p>
